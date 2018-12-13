@@ -327,7 +327,7 @@ void ICMP_Header(unsigned char *trama, unsigned short seqNumber, int ID)
 {
     unsigned char identifier[2];
     unsigned char checkSum[2];
-    unsigned char data[48] = {"                                                "}; //payload
+    unsigned char data[48] = {"Kevin Jesus Olvera Olvera"}; //payload
     unsigned short ckSum;
     memcpy(trama + 34, "\x08", 1); //Type ECHO req
     unsigned char *ptr, *ptr1;
